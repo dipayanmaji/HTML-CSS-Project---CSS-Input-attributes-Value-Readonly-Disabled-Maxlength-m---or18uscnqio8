@@ -1,1 +1,52 @@
-
+body{
+    background: hsl(200, 70%, 50%);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+  #mobile{
+    background: white;
+    height: 480px;
+    width: 270px;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:2px;
+    box-shadow: 5px 5px 10px black;
+  }
+  #screen-view{
+    background: url(https://images.unsplash.com/photo-1664737061963-862d6a174a3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60);
+    background-size: cover;
+    height: 430px;
+    width: 270px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem ;
+  }
+  #bottom-bar{
+    background: hsl(39, 83%, 84%);
+    height: 50px;
+    width: 270px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  #bottom-bar button{
+    background: none;
+    border: none;
+    color: rgb(32, 32, 32);
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  #bottom-bar button:hover{
+    color: rgb(151, 29, 29);
+    cursor: pointer;
+  }
+  #bottom-bar button:active{
+    font-size: 13px;
+    color: rgb(32,32,32);
+  }
